@@ -14,3 +14,13 @@ Key Features:
 - Error handling: The script detects and handles exceptions, providing detailed error logs for troubleshooting.
 
 This script provides a reliable and efficient solution for automating the processing of Excel files, making data transformations faster and more consistent. It simplifies data cleaning tasks and ensures data integrity for further analysis or usage.
+
+
+📌 NEW! Added features for excel files processing in v3 :
+- Malaysian names recognization & preprocessing: Recognize malaysian names and process any rows that deviate from malaysian names and remove any rows with weird values/symbols in names.
+
+
+📌 NEW! Script features in v3 :
+1. Error logging : Now any errors with corresponding files name producing the errors will be saved in an error log file inside its own directory 'error_logs' with separation between errors.
+2. Setup initialization : Script will create 3 folders upon first-time run of script as part of setup initialization process.
+3. Animated progress bar : Utilized 'alive-progress' bar by rsalmei to monitor progresss of excel files processing.
